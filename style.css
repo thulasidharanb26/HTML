@@ -1,0 +1,53 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body background color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Center the ToDo list title */
+div { 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#input {
+    padding: 8px;
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 25px;
+    border: none;
+    background-color: #06467e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the task container */
+#task-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.025);
+}
+
+/* Style the individual task item */
+.task-item {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 95px;
+    border: 10px solid #ccc;
+}
